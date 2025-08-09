@@ -32,8 +32,9 @@
 		{"name": "Time Rune III"				,"ID":21	,"description":" -25% debuff time"															,"sprite": "time 1"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
 		
 		{"name": "Awareness rune I"				,"ID":22	,"description":" -10% to stun time"															,"sprite": "time 2"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
-		{"name": "Awareness rune II"			,"ID":23	,"description":" -20% to stun time"															,"sprite": "time 2"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Awareness rune II"			,"ID":23	,"description":" -20% to stun time"															,"sprite": "time 2"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24}
 		
 	]		
 }
+
 

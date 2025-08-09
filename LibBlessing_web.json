@@ -1,0 +1,41 @@
+{
+	"name": "libBlessing",
+	"version":"V.0.0.1",
+	"timestamp":1754757839620, 
+	"comment":"explanation",
+	"res_tree":[
+		{"name": "+ 2 Starting points"			,"ID":1		,"description":"+2 evolution point to start with"   										,"sprite": "coin2_bonus"			,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":100,	"duration":24},
+		{"name": "+ 5 Starting points"			,"ID":2		,"description":"+5 evolution point to start with"   										,"sprite": "coin2_bonus"			,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":500,	"duration":24},
+
+		{"name": "Damage Increase 1"			,"ID":3		,"description":" 10% Damage increase"														,"sprite": "DamagePlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+		{"name": "HP Increase 1"				,"ID":4		,"description":" 10pt HP increase"															,"sprite": "HPPlus"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+		{"name": "Critical Increase 1"			,"ID":5		,"description":" increase critical chances"													,"sprite": "ConcentrationPlus"		,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+
+		{"name": "Movement Speed"				,"ID":6		,"description":" 10% speed increase"														,"sprite": "SpeedPlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+		{"name": "Coin Saver - 10%"				,"ID":7		,"description":" 10% chance of avoiding a dark coin while saving a coin"					,"sprite": "coin_bonus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+		{"name": "Shield increase"				,"ID":8		,"description":" 10% damage reduction"														,"sprite": "ShieldPlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+		{"name": "Focus  increase"				,"ID":9		,"description":" + 1 focus point increase"													,"sprite": "FocusPlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+		{"name": "Focus regen. increase"		,"ID":10	,"description":" + 10% focus regen"															,"sprite": "FocusPlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":200,	"duration":24},
+		
+		{"name": "Movement Speed II"			,"ID":11	,"description":" 15% speed increase"														,"sprite": "SpeedPlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Coin Saver - 15%"				,"ID":12	,"description":" 15% chance of avoiding a dark coin while saving a coin"					,"sprite": "coin_bonus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "One shot protection - 10%"	,"ID":13	,"description":" max 90% damage in one shot"												,"sprite": "ShieldOneShot"			,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Focus  increase II"			,"ID":14	,"description":" + 3 focus point increase"													,"sprite": "FocusPlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Focus regen. increase II"		,"ID":15	,"description":" + 15% focus regen"															,"sprite": "FocusPlus"				,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		
+		{"name": "Sword Rune I"					,"ID":16	,"description":" + 10% Damage"																,"sprite": "sword rune 1"			,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Sword Rune II"				,"ID":17	,"description":" + 15% Damage"																,"sprite": "sword rune 2"			,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Sword Rune III"				,"ID":18	,"description":" + 25% Damage"																,"sprite": "sword rune 3"			,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		
+		{"name": "Time Rune I"					,"ID":19	,"description":" -10% debuff time"															,"sprite": "time 1"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Time Rune II"					,"ID":20	,"description":" -15% debuff time"															,"sprite": "time 1"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Time Rune III"				,"ID":21	,"description":" -25% debuff time"															,"sprite": "time 1"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		
+		{"name": "Awareness rune I"				,"ID":22	,"description":" -10% to stun time"															,"sprite": "time 2"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		{"name": "Awareness rune II"			,"ID":23	,"description":" -20% to stun time"															,"sprite": "time 2"					,"sprite_col":0	,"sprite_row":0	,"action":"None"			,"cost":400,	"duration":24},
+		
+	]		
+}
+
+ 
+

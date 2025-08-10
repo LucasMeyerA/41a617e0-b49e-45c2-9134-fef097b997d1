@@ -1,0 +1,9 @@
+{
+	"name": "libSprite",
+	"version":"V.0.0.1",
+	"comment":"explanation",
+  "timestamp":1754823154687,
+	"res_tree":[
+		{"name": "web_sprite"										,"source": "Images/Runes/web.png"																	,"freq": 0		,"cols": 1.0		,"rows": 1.0},
+	]
+}

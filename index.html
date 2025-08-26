@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>SterOx customer Login</title>
-		<link rel="stylesheet" type="text/css" href="login.css">
-		<link rel="icon" type="image/x-icon" href="../icon.png">
-	</head>
-	<body>
-		<p> test from github</p>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display JSON from File</title>
+</head>
+<body>
+  <h2>JSON Content from File:</h2>
+  <pre id="jsonDisplay"></pre>
+
+  <script>
+    fetch("LibBlessing_web.json")
+      .then(response => response.json())
+      .then(jsonData => {
+        document.getElementById("jsonDisplay").textContent =
+          JSON.stringify(jsonData, null, 2);
+      })
+      .catch(err => console.error("Error loading JSON:", err));
+  </script>
+</body>
 </html>
